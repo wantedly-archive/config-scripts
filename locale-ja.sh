@@ -6,8 +6,8 @@
 
 set -e
 
-apt-get update -yy
-apt-get install -yy locales language-pack-ja-base
+apt-get update -y && \
+    apt-get install -y locales language-pack-ja-base
 
 cat > /etc/default/locale <<-'EOF'
 LANGUAGE="ja_JP:ja"
