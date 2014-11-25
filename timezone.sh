@@ -19,4 +19,4 @@ then
     rm /etc/localtime
 fi
 
-ln -s $ZONEINFO /etc/localtime
+cp $ZONEINFO /etc/localtime
