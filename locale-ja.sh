@@ -1,7 +1,7 @@
 #!/bin/bash
 #
-# Usage: locale.sh <locale>
-# Description: Set timezone for container
+# Usage: locale-ja.sh
+# Description: Set Japanese locale for container
 #
 
 set -e
