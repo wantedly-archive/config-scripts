@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Usage: timezone.sh <timezone>
 # Description: Set timezone for container
