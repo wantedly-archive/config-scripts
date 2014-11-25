@@ -14,9 +14,4 @@ then
     exit 1
 fi
 
-if [ -f /etc/localtime ]
-then
-    rm /etc/localtime
-fi
-
-cp $ZONEINFO /etc/localtime
+cp -f $ZONEINFO /etc/localtime
